@@ -1,5 +1,5 @@
 [project]
-name = "be-part"
+name = "aml"
 version = "0.1.0"
 description = "AML transaction monitoring backend: data ingestion, detection rules and API"
 readme = "README.md"
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-be-part = "be_part:main"
+aml = "aml:main"
 
 [build-system]
 requires = ["uv_build>=0.13.9,<0.14.0"]
