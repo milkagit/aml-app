@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Data (downloaded datasets are never committed)
+data/
+
+# Python
+.venv/
+__pycache__/
+*.py[oc]
+
+# Node
+node_modules/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
